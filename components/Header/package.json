@@ -1,0 +1,30 @@
+{
+  "name": "Header",
+  "description": "",
+  "version": "1.0.0",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "app.js",
+        "type": "oc-template-react"
+      }
+    },
+    "parameters": {
+      "name": {
+        "default": "World",
+        "description": "Your name",
+        "example": "Jane Doe",
+        "mandatory": false,
+        "type": "string"
+      }
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "oc-template-react-compiler": "5.2.0",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.4"
+  },
+  "dependencies": {}
+}
